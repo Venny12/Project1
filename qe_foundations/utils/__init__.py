@@ -8,3 +8,21 @@ from qe_foundations.utils.dates import add_days
 from qe_foundations.utils.dates import is_weekend
 from qe_foundations.utils.dates import timestamp_for_filename
 from qe_foundations.utils.data_gen import make_users
+
+from qe_foundations.utils.strings import mask_email
+from qe_foundations.utils.dates import days_between
+
+__all__ = [
+    "slugify",
+    "normalize_whitespace",
+    "is_valid_email",
+    "is_positive_int",
+    "clamp",
+    "percent",
+    "add_days",
+    "is_weekend",
+    "timestamp_for_filename",
+    "make_users",
+    "mask_email",
+    "days_between",
+]
