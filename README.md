@@ -12,8 +12,10 @@ Setup Section
 -------------------------------------------------
 1. Create a Virtual Environment - Create venv 
     py -m venv .venv
+    python -m venv .venv
 2. Activate the Virtual Environment
-    .venv\Scripts\Activate.ps1 
+    Windows- .venv\Scripts\Activate.ps1 
+    MacOS- source .venv/bin/activate
 3. Install  Dependencies
     python -m pip install -r requirements.txt   
     python -m pip install -r requirements-dev.txt
